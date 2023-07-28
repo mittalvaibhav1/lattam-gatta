@@ -1,0 +1,31 @@
+.joingame {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  user-select: none;
+  height: 70vh;
+  width: 28em;
+  margin: auto;
+  position: relative;
+  margin-top: 10vh;
+}
+@media only screen and (max-width: 480px) {
+  .joingame {
+    height: 70vh;
+    width: 20em;
+    margin-top: 0vh;
+  }
+}
+.joingame__logo > img {
+  height: 150px;
+  border-radius: 10px;
+}
+.joingame_playermenu {
+  font-size: 14px;
+  color: #757980c2;
+  width: 100%;
+}
+.joingame_playermenu > h3 {
+  margin: 15px 0px;
+}

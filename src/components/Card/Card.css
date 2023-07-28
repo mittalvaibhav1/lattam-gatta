@@ -1,0 +1,17 @@
+.card {
+  height: 22vh;
+  width: auto;
+  margin: 5px -15px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  transition: ease-in-out 100ms;
+}
+.card:hover {
+  transform-origin: 50% 50% 0px;
+  transform: translate3d(0px, 0px, 0px) scale(1.1, 1.1);
+  z-index: 100;
+}
+.card > img {
+  height: 100%;
+}

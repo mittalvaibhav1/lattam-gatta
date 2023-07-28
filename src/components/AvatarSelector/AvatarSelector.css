@@ -1,0 +1,22 @@
+.avatarselector {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.avatarselector__Avatar {
+  display: flex;
+  flex-direction: row;
+  flex: 20%;
+  cursor: pointer;
+}
+.avatarselector__Avatar > img {
+  height: 5rem !important;
+  transition: ease-out 200ms;
+  padding: 6px;
+  -webkit-user-drag: none;
+}
+.avatarSelected {
+  border: 4px solid rgb(71, 147, 235);
+  border-radius: 100%;
+}

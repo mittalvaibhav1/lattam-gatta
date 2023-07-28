@@ -1,0 +1,21 @@
+.cardstack {
+  margin-top: -5%;
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardstack > img {
+  height: 22vh;
+  cursor: pointer;
+  margin-left: -8vw;
+  transition: ease-in-out 100ms;
+}
+.cardstack > img:last-child {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.cardstack > img:last-child:hover {
+  transform: scale(1.1);
+}

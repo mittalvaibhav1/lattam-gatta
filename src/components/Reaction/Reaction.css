@@ -1,0 +1,36 @@
+.reaction {
+  position: absolute;
+  transition: all ease-in-out 500ms;
+  margin: auto;
+  top: 60%;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  right: 10vw;
+}
+.reaction__header {
+  font-size: 2vh;
+  font-weight: bold;
+  color: #5f6a75;
+  border: 5px double rgb(236, 236, 236);
+  border-radius: 20px;
+  padding: 7px 7px;
+  background-color: white;
+  margin: 0px auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.showEmoji {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(-60%) !important;
+}
+.reaction > img {
+  height: 28vh;
+}

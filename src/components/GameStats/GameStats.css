@@ -1,0 +1,31 @@
+.gamestats {
+  height: 100vh;
+  width: 0px !important;
+  padding: 30px;
+  position: absolute;
+  background-color: white;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  transition: all 200ms ease-in;
+  transform: translateX(50%);
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.open {
+  transform: translateX(0%);
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+  width: 25vw !important;
+}
+
+.gamestats__header {
+  color: #5f6a75;
+  font-size: 28px;
+  padding: 5px;
+}

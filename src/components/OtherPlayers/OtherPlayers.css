@@ -1,0 +1,66 @@
+.otherplayers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+  margin-bottom: -10%;
+  user-select: none;
+}
+
+.otherplayers .playeravatar img,
+.otherplayers .MuiAvatar-root {
+  height: 80px !important;
+  width: 80px !important;
+  transition: ease-in-out 100ms;
+}
+
+@media only screen and (max-height: 500px) {
+  .otherplayers .playeravatar img,
+  .otherplayers .MuiAvatar-root {
+    height: 50px !important;
+    width: 50px !important;
+    transition: ease-in-out 100ms;
+  }
+}
+
+.otherplayers .MuiAvatar-root:hover {
+  transform: scale(1.05);
+}
+
+.otherplayers_details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+
+.otherplayers_detailsUsername {
+  background-color: white;
+  font-weight: bold;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.otherplayers_cardsNumber {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f6a75;
+  border: 2px solid rgb(236, 236, 236);
+  border-radius: 10px;
+  padding: 3px 5px;
+  position: absolute;
+  background-color: white;
+  left: 10%;
+  bottom: 0;
+}
+.otherplayers_detailsWrapper {
+  position: relative;
+}
