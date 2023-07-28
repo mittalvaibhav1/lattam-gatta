@@ -1,0 +1,44 @@
+.gamestatusbar {
+  min-width: 50vw;
+  height: 35px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  user-select: none;
+  overflow: hidden;
+}
+.gamestatusbar__middle {
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+.gamestatusbar__middle > span {
+  color: rgb(196, 214, 130);
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+}
+.gamestatusbar__right {
+  display: flex;
+  align-items: center;
+}
+.gamestatusbar__rightSpectators {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.gamestatusbar__rightSpectators > span {
+  color: #81c784;
+  font-weight: bold;
+}
+.gamestatusbar .MuiSvgIcon-root {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+}

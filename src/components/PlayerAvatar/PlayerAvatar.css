@@ -1,0 +1,17 @@
+.playeravatar {
+  height: 100%;
+  cursor: pointer;
+  padding: 5px 0px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playeravatar img,
+.MuiAvatar-root {
+  height: 8vh !important;
+  width: 8vh !important;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  -webkit-user-drag: none;
+}

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap");
+
+.howtoplay {
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2vh;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  position: absolute;
+  z-index: 1000;
+}
+.howtoplay * {
+  line-height: 2;
+}
+.howtoplay strong {
+  color: black;
+  font-family: "Grandstander" !important;
+  text-decoration: underline;
+}
+.howtoplay__close {
+  font-size: large;
+  font-weight: bolder;
+  color: tomato;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.howtoplay__header {
+  font-size: 35px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: "Grandstander" !important;
+}
+.howtoplay__rules {
+  overflow-y: scroll;
+  padding: 3vh;
+}
+.howtoplay__rules > h2 {
+  font-size: 24px;
+  padding: 10px;
+  font-family: "Grandstander" !important;
+}
+.howtoplay__rules > p {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.726);
+  font-family: "Grandstander" !important;
+}
+.howtoplay__rules ul {
+  list-style-type: lower-alpha;
+}
+.howtoplay__rules li {
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.726);
+  font-family: "Grandstander" !important;
+}
+.howtoplay__rules img {
+  height: 20vh;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  cursor: pointer;
+}
+.howtoplay__rules img:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}

@@ -1,0 +1,16 @@
+.playeractions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 8vw;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  right: 10vw;
+}
+.playeractions > button {
+  width: 100%;
+}

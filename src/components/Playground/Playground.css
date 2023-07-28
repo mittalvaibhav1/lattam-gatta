@@ -1,0 +1,27 @@
+.playground {
+  background-color: white;
+  height: 50vh;
+  min-width: 80vw;
+  border-radius: 200px;
+  border-width: 5vh;
+  border-style: solid;
+  border-color: #fafafa;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.playground_inner {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 150px;
+  background-color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.playground_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
